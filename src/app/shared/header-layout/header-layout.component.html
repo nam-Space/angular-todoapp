@@ -1,5 +1,7 @@
 <nz-page-header [nzGhost]="false">
-  <nz-page-header-title>Todo App</nz-page-header-title>
+  <nz-page-header-title (click)="handleNavigate()" class="cursor-pointer"
+    >Todo App</nz-page-header-title
+  >
   <nz-page-header-extra>
     <nz-space>Xin chào bạn</nz-space>
   </nz-page-header-extra>
